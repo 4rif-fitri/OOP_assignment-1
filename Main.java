@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 public class Main {
+	static Scanner input = new Scanner(System.in);
 
 	public static void area_square() {
-		Scanner input = new Scanner(System.in);
 		double side, area;
 
 		System.out.println("You have selected: Square");
@@ -25,7 +25,6 @@ public class Main {
 	}
 
 	public static void area_circle() {
-		Scanner input = new Scanner(System.in);
 		double diameter, radius, area;
 
 		System.out.println("You have selected: Circle");
@@ -48,7 +47,6 @@ public class Main {
 	}
 
 	public static void area_hexagon() {
-		Scanner input = new Scanner(System.in);
 		double side, area;
 
 		System.out.println("You have selected: Hexagon");
@@ -70,7 +68,6 @@ public class Main {
 	}
 
 	static boolean again() {
-		Scanner input = new Scanner(System.in);
 		String c;
 		System.out.println("\nWould you like to continue? (Enter 'Y' for Yes, 'N' for No): ");
 
@@ -92,7 +89,6 @@ public class Main {
 	}
 
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
 		String choice;
 		System.out.println("Welcome to the Area Calculator!");
 		System.out
