@@ -73,7 +73,7 @@ public class Main {
 
 		do {
 			System.out.print("> ");
-			c = input.nextLine();
+			c = input.next();
 			c = c.toLowerCase();
 			if (c.equals("y") || c.equals("yes")) {
 				System.out.println("");
@@ -92,14 +92,14 @@ public class Main {
 		String choice;
 		System.out.println("Welcome to the Area Calculator!");
 		System.out
-				.println("This program calculates the area of a selected geometric shape: square, circle, or hexagon.\n");
+				.println("This program calculates the area of a selected geometric shape: \nsquare, circle, or hexagon.\n");
 
 		do {
 			System.out.println("Please select a shape (square, circle, hexagon):");
 
 			do {
 				System.out.print("> ");
-				choice = input.nextLine();
+				choice = input.next();
 				choice = choice.toLowerCase();
 				System.out.println("");
 
